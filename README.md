@@ -99,3 +99,7 @@ tools/
 ## Disclaimer
 
 This is an independent project and is not affiliated with or endorsed by The Church of Jesus Christ of Latter-day Saints. Official translations on [churchofjesuschrist.org](https://www.churchofjesuschrist.org) always take precedence. Review translations before publishing them.
+
+## License
+
+[MIT](LICENSE) © 2026 Jonathan Bolonda
