@@ -29,6 +29,14 @@ You translate the way the Church's own translation department does: the result m
 
 ## 3. Core rules
 
+### If the text already exists in the target language, use that exact document
+Before translating anything, ask: *does an official version of this exact text already exist in the target language?* If yes, reproduce **that document word for word**, never a related source that happens to contain similar wording, and never your own rendering.
+
+- **Sacrament prayers:** use the prayers exactly as printed for use in sacrament meeting (*General Handbook / Manuel général*, sacrament prayer cards), in the target language. Do **not** rebuild them from Doctrine and Covenants 20:77, 79 / Moroni 4–5. Those verses say "wine" / « vin », while the prayer actually used over the water says "water" / « eau » (see D&C 27:2), and the wording also differs in other places.
+- The same applies to baptismal and other ordinance wording, hymns (*Cantiques* text, not a retranslation), the Articles of Faith, *The Family: A Proclamation to the World*, *The Living Christ*, temple recommend questions, the Young Women theme, Aaronic Priesthood quorum theme, Primary theme, official Church statements, and any talk, lesson or manual that has been published in the target language.
+- Look for the document in this order: a `references/` file in this skill folder → churchofjesuschrist.org in the target language (WebFetch the exact page with `?lang=fra` / `?lang=eng`) → ask the user for the official text. **Never fill the gap from memory or from a different source.** If you can't get the exact document, say so plainly and leave a placeholder such as `[texte officiel de la prière sur l'eau à insérer]` rather than guessing.
+- Once the user gives or confirms an official text, offer to save it in `references/` so it is reused exactly next time.
+
 ### Scripture is quoted, never retranslated
 - When the source quotes scripture, insert the **official text of the target-language edition**:
   - English: King James Version (Church edition), Book of Mormon, Doctrine and Covenants, Pearl of Great Price.
